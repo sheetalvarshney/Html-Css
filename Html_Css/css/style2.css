@@ -1,0 +1,197 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #781515;
+    padding: 0 19px;
+	position: relative;
+	min-height: 100%;
+}
+
+.menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+.menu li {
+	
+    float: left;
+}
+
+.one{
+ float: left;
+    width: 270px;
+    height: 270px;
+ padding: 10px;
+}
+
+.two{
+	float: left;
+    width: 270px;
+    height: 270px;
+ padding: 10px;
+}
+
+ .meta h3{
+    text-align:50px;
+    color: maroon;
+ }
+
+ .meta{
+ 	margin-left: 20%;
+ }
+
+ .hero-unit{
+ 	margin-left: 13%;
+ }
+
+ .hub{
+
+ 	margin-left:  70px; 
+ }
+
+
+.hero-unit{
+	width: 900px;
+	margin-right:  40px; 
+   margin-bottom: 20px;
+   position: relative;
+
+}
+ .hero {
+    margin-left: 1px;
+ }
+
+.hero {
+     padding-left:-20px; 
+  display: block;
+  width: 100%;
+  height: auto;
+  
+}
+
+.slide {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:#0C111466;
+  overflow: auto;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.hero-unit:hover .slide {
+  width: 100%;
+}
+
+.text p{
+   margin-top: 100px;
+   margin-left: 60px;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.primary1{
+	float: left;
+	width: 25%;
+	margin-left: 20px; 
+	border-style: double;
+}
+
+.primary2{
+	float: left; 
+	width: 300px;
+	margin-left: 20px;
+	border-style: double;
+	margin-bottom: 1px;
+}
+
+
+.primary3{
+	float: left; 
+	width: 25%;
+	margin-left: 20px;
+	border-style: double;
+}
+
+.must{
+	margin-left: 10%;
+}
+
+.watch1{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.watch2{
+    padding-left: 30px;
+    padding-top: 20px
+}
+
+
+.watch3{
+   padding-left: 30px;
+    padding-top: 20px;
+}
+
+.watch1:hover {
+     
+ box-shadow:  0 4px 8px 0 darkgrey, 0 6px 20px 0 darkgrey;
+}
+
+.watch2:hover {
+     
+ box-shadow:  0 4px 8px 0 darkgrey, 0 6px 20px 0 darkgrey;
+}
+
+.watch3:hover {
+     
+ box-shadow:  0 4px 8px 0 darkgrey, 0 6px 20px 0 darkgrey;
+}
+
+
+h4{
+	color: lightgrey;
+	font-size: 13px;
+}
+
+.primary1 h1{
+	margin-top: 2px;
+}
+
+footer{
+    clear: both;
+	background:rgba(98, 10, 10, 0.8);
+    position: relative;
+    width: 100%;
+     margin-left: 0;
+     overflow: auto;
+}
+
+.post{
+
+    margin-top: 10px;
+    text-align:right;
+    margin-right: 20px;
+}
+
+footer  li{
+	color:black;
+	display: inline;
+}
+
+ .support{
+ 	padding-bottom: 4px; 
+ }
